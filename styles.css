@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+}
+
+.header {
+  width:700px;
+  background-color:darkgray;
+  padding:10px;
+  display: flex;
+  align-items:center;
+  
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  margin-right:10px;
+}
+
+.nav-title {
+  color:black;
+  margin: 0;
+  font-weight: bold;
+}
+
+.top-nav {
+  background-color:gray;
+  padding:10px;
+  width:700px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px; 
+}
+
+.nav a:hover {
+  background-color:black; 
+}
+
+.content {
+  padding:5px;
+}
+h2 {
+  color: grey;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+#home{
+  background-image:url('background.jpg');
+  width:710px;
+  height:1000px;
+}
+#about{
+  background-image:url('background.jpg');
+  width:710px;
+  height:1000px;
+}
+#education{
+  background-image:url('background.jpg');
+  width:710px;
+  height:1000px;
+}
+
+#skills{
+  background-image:url('background.jpg');
+  width:710px;
+  height:1000px;
+}
+#hobbies{
+  background-image:url('background.jpg');
+  width:710px;
+  height:1000px;
+}
+#photo{
+  background-image:url('background.jpg');
+  width:710px;
+  height:1000px;
+}
+#contact{
+  background-image:url('background.jpg');
+  width:720px;
+  height:1500px;
+}
+.content h2{
+  font-weight: bold;
+  transform: translate(40%);
+  font-size:45px;
+  color:black;
+}
+#about p{
+  font-weight: bold;
+  transform: translate(2%);
+  font-size:30px;
+  color:black;
+  
+}
+#home  p{
+  font-weight: bold;
+  transform: translate(5%);
+  font-size:40px;
+  color:black;
+}
+#education  p{
+  font-weight: bold;
+  transform: translate(5%);
+  font-size:40px;
+  color:black;
+}
+#skills p{
+  font-weight: bold;
+  transform: translate(5%);
+  font-size:40px;
+  color:black;
+}
+#hobbies  p{
+  font-weight: bold;
+  transform: translate(4%);
+  font-size:40px;
+  color:black;
+}
+#photo  p{
+  font-weight: bold;
+  transform: translate(5%);
+  font-size:40px;
+  color:black;
+}
+#contact p{
+  font-weight: bold;
+  transform: translate(5%);
+  font-size:40px;
+  color:black;
+}
+#contact li{
+  font-weight: bold;
+  transform: translate(10%);
+  font-size:40px;
+  color:black;
+}
+#hobbies li{
+  font-weight: bold;
+  transform: translate(25%);
+  font-size:40px;
+  color:black;
+}
+#skills li{
+  font-weight: bold;
+  transform: translate(25%);
+  font-size:40px;
+  color:black;
+}
+#education li{
+  font-weight: bold;
+  transform: translate(5%);
+  font-size:35px;
+  color:black;
+}
